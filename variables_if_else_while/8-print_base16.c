@@ -21,5 +21,6 @@ while (letter <= 'f')
 putchar(letter);
 letter = letter + 1;
 }
+putchar('\n');
 return (0);
 }
