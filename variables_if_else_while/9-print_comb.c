@@ -17,7 +17,10 @@ if (x <= '8')
 {
 putchar(',');
 }
+if (x <= '8')
+{
 putchar(' ');
+}
 x++;
 }
 putchar('\n');
