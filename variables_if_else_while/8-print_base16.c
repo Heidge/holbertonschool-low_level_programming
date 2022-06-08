@@ -14,12 +14,12 @@ int x = '0';
 while (x <= '9')
 {
 putchar(x);
-x = x+1;
+x = x +1 ;
 }
 while (letter <= 'f')
 {
 putchar(letter);
-letter = letter+1;
+letter = letter + 1;
 }
 return (0);
 }
