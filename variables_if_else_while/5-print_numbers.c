@@ -9,11 +9,12 @@
 */
 int main(void)
 {
-char ch = 97;
-for (ch = 97; ch <= 122; ++ch)
+char ch = '0';
+while (ch <= '9')
+{
 putchar(ch);
-for (ch = 65; ch <= 90; ++ch)
-putchar(ch);
+ch++;
+}
 putchar('\n');
 return (0);
 }
