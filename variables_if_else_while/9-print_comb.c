@@ -9,8 +9,14 @@
 */
 int main(void)
 {
-  char x = 0;
-  for (x = 0; x <= 9; ++x)
-    putchar(x);
+char x = '0';
+while (x <= '9')
+{
+putchar(x);
+putchar(',');
+putchar(' ');
+x++;
+}
+putchar('\n');
 return (0);
 }
