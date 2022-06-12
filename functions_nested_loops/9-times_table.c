@@ -11,15 +11,22 @@ void times_table(void)
 		for (y = 0; y <= 9; y++)
 		{
 			z = x * y;
+
+
 			if (z > 10)
 			{
 			_putchar(z / 10 + '0');
 			}
-			else
+			else if (y >= 1)
 			{
-				_putchar(' ');
+			_putchar(' ');
 			}
+
+
 			_putchar(z % 10 + '0');
+
+
+
 			if (y <= 8)
 			{
 			_putchar(',');
