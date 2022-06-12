@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- *times_table - tables de multiplications jusqu'a 9
- *
+ *times_table - hard exercice
  */
 void times_table(void)
 {
