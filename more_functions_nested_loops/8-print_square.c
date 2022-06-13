@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* print_diagonal - function
-*@n: times print
+* print_square - function
+*@size: times print
 */
 void print_square(int size)
 {
@@ -17,6 +17,6 @@ void print_square(int size)
 		}
 		_putchar('\n');
 		}
-	};
+	}
 }
 
