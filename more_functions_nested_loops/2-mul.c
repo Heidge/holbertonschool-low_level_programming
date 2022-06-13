@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-* _isdigit - check uppercase
-*@c: character checked
-*Return: 1 if lowercase, 0 otherwise
+* mul - multiplication
+*@a: first int
+*@b: second inbt
+*Return: result
 */
 int mul(int a, int b)
 {
