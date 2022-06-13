@@ -1,12 +1,12 @@
 #include <stdio.h>
+
 /**
 * main - function
-*
+*Return: always 0
 */
-int main(void)
-{
-	int x;
 
+int main(int x)
+{
 	for (x = 1; x <= 100; x++)
 	{
 		if (x % 15 == 0)
