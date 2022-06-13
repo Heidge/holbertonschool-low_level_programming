@@ -5,8 +5,10 @@
 *Return: always 0
 */
 
-int main(int x)
+int main(void)
 {
+	int x;
+
 	for (x = 1; x <= 100; x++)
 	{
 		if (x % 15 == 0)
