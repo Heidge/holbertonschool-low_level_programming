@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_most_numbers - new loop again
+* more_numbers - function
 */
 void more_numbers(void)
 {
