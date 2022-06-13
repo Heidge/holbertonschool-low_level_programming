@@ -1,7 +1,7 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
-* main - function
+*main - function
 *Return: always 0
 */
 
@@ -18,6 +18,10 @@ int main(void)
 		else if (x % 5 == 0)
 		{
 			printf("Buzz ");
+		}
+		else if (x == 100)
+		{
+			printf("Buzz");
 		}
 		else if (x % 3 == 0)
 		{
