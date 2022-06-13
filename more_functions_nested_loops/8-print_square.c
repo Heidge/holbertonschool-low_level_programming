@@ -3,14 +3,14 @@
 * print_diagonal - function
 *@n: times print
 */
-void print_diagonal(int n)
+void print_square(int size)
 {
-	int len;
+	int x;
 
-	if (n > 0)
+	if (size > 0)
 	{
-		for (len = 0; len < n; len++)
-			_putchar('_');
+		for (x = 0; x < size; x++)
+			_putchar('#');
 	}
 
 	_putchar('\n');
