@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_triangle - function
+* reset_to_98 - function
 *@n: times print
 */
 void reset_to_98(int *n)
