@@ -13,11 +13,10 @@ void puts2(char *str)
 		len++;
 	}
 
-		len = len - 1;
-
 	for (count = 0; count < len; count += 2)
 	{
 		_putchar(str[count]);
 	}
 	_putchar('\n');
 }
+
