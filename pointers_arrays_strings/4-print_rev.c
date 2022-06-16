@@ -1,17 +1,25 @@
 #include "main.h"
 /**
-* _print_rev - function
+* print_rev - function
 *@s: string
 */
 void print_rev(char *s)
 {
-int len = 0, index;
+	int count;
+	int len = 0;
 
-	while (s[index++])
+	while (s[len] != '\0')
+	{
 		len++;
+	}
 
-	for (index = len - 1; index >= 0; index--)
-		_putchar(s[index]);
+		len = len -1;
+
+	for (count = len; count >= 0; count--)
+	{
+		_putchar(s[count]);
+	}
 
 	_putchar('\n');
 }
+
