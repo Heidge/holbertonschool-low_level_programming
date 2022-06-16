@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-* puts2 - function
+* puts_half - function
 *@str: string
 */
 void puts_half(char *str)
 {
-	int count;
+	int count, n;
 	int len = 0;
 
 	while (str[len] != '\0')
@@ -13,17 +13,18 @@ void puts_half(char *str)
 		len++;
 	}
 
-	for (count = len / 2; count < len; count ++)
+	if (len % 2 == 0)
 	{
-		if (len % 2 == 0)
-		{
-			_putchar(str[count]);
-		}
-		else
-		{
-			len = (len -1) / 2;
-			_putchar(str[count]);
-		}
+		n = len / 2;
+	}
+	else
+	{
+		n = (len / 2) + 1;
+	}
+
+	for (count = n; count < len; count++)
+	{
+		_putchar(str[count]);
 
 	}
 	_putchar('\n');
