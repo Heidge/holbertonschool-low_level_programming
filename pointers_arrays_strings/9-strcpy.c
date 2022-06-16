@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-* print_array - function
-*@a: string
-*@n: index of array
+*_strcpy - function
+*@dest: string
+*@src: dest string
+*Return: value of dest
 */
 char *_strcpy(char *dest, char *src)
 {
@@ -12,5 +13,5 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[i] = src[i];
 	}
-	return(dest);
+	return (dest);
 }
