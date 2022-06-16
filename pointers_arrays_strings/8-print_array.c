@@ -21,3 +21,10 @@ void print_array(int *a, int n)
 	}
 	printf("\n");
 }
+
+/**
+* a ici prend la valeur de la variable array dans le fichier main
+* n est le compteur dans les crochets de la variable array
+* on crée x pour le compteur de la boucle, x commence à 0 donc imprime
+* le array 0 puis ainsi de suite
+*/
