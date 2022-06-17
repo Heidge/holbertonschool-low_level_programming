@@ -1,27 +1,25 @@
 #include "main.h"
 /**
-*_strcpy - function
+*_strcat - function
 *@dest: string
 *@src: dest string
 *Return: value of dest
 */
 char *_strcat(char *dest, char *src)
 {
-    int i, j;
+	int i, j;
 
-  	i = 0;
-
-    while(dest[i] != '\0')
-    {
-        i++;
-    }
-
-    for (j = 0; src[j] != '\0'; j++)
-    {
+	i = 0;
+	while (dest[i] != '\0')
+	{
+		i++;
+	}
+	for (j = 0; src[j] != '\0'; j++)
+	{
 		dest[i] = src[j];
 		i++;
-    }
-    dest[i] = '\0';
-    return (dest);
+	}
+	dest[i] = '\0';
+	return (dest);
 }
 
