@@ -21,3 +21,8 @@ int _strcmp(char *s1, char *s2)
 		return (*s1 - *s2);
 	}
 }
+
+/*
+*https://overiq.com/c-programming-101/the-strcmp-function-in-c/
+*
+*/

@@ -1,9 +1,31 @@
-void ReverseArray(int arr[], int size)
-{
-    for (int i = 0; i < size/2; i++)
-    {
-        int temp = arr[i];
-        arr[i] = arr[size - 1 - i];
-        arr[size - 1 - i] = temp;
-    }
-}
+ #include<stdio.h>
+ int main()
+ {
+     char s[100];
+     int i = 0;
+
+     // take input
+     printf("Enter a string: ");
+     scanf("%[^\n]", s);
+
+     // iterate loop until
+     // the end of the string
+     while( s[i] != '\0' )
+     {
+        // if character is in lowercase
+        // then subtract 32
+        if( s[i] >= 'a' && s[i] <= 'z' )
+        {
+           s[i] = s[i] - 32;
+        }
+
+        // increase iterator variable
+        i++;
+     }
+
+     // display result
+     printf("In Upper Case is: ");
+     puts(s);
+
+     return 0;
+ }

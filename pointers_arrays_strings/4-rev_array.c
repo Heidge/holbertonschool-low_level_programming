@@ -16,3 +16,8 @@ void reverse_array(int *a, int n)
 		a[n - 1 - i] = temp;
 	}
 }
+
+/**
+ * https://stackoverflow.com/questions/47745149/reverse-an-integer-array-in-c
+ *
+ */
