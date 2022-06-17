@@ -1,32 +1,23 @@
 #include "main.h"
 /**
-*_strncpy - function
-*@dest: string
-*@src: dest string
-*@n: bytes
-*Return: value of dest
+*_strcmp - function
+*@s1: string
+*@s2: dest string
+*Return: result or always 0
 */
 int _strcmp(char *s1, char *s2)
 {
-	int i;
-
-	i = 0;
-
-	while (s1[i] == s2[i] && s1[i] != '\0')
+	while( ( *s1 != '\0' && *s2 != '\0' ) && *s1 == *s2 )
 	{
-	i++;
-	if (s1[i] > s2 [i])
-	{
-		return (*s1);
+		s1++;
+		s2++;
 	}
-	else if ( s1[i] < s2[i])
+	if(*s1 == *s2)
 	{
-		return (*s2);
+		return 0;
 	}
 	else
 	{
-		return (0);
+		return *s1 - *s2;
 	}
-	}
-	return (0);
 }
