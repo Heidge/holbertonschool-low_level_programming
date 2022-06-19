@@ -8,8 +8,8 @@
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	char *pszDest = *dest;
-	const char *pszSource = *src;
+	char *pszDest = dest;
+	const char *pszSource = src;
 	if ((*dest != '\0') && (*src != '\0'))
 	{
 		while (n)
