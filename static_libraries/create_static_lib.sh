@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #script
-ar rc liball.a *.c
+gcc *.c
+ar rc liball.a *.o
