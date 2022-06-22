@@ -9,16 +9,18 @@
 #include <stdlib.h>
 int main(int argc, char **argv)
 {
-	int mul;
-	int num1 = atoi(argv[1]);
-	int num2 = atoi(argv[2]);
+	int mul, num1, num2;
 
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
+
+	num1 = *argv[1];
+	num2 = *argv[2];
 	mul = num1 * num2;
 	printf("%d\n", mul);
+
 	return (0);
 }
