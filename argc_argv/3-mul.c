@@ -2,7 +2,7 @@
  * main - function
  *
  * @argc: number of arg
- * @argv: valor of arg
+ * @argv: value of arg
  * Return: always 0
  */
 #include <stdio.h>
@@ -15,6 +15,7 @@ int main(int argc, char **argv)
 
 	if (argc > 3)
 	{
+		printf("Error");
 		return (1);
 	}
 
