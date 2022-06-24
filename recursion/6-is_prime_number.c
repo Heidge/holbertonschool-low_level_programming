@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_sqrt_result - function 2
+*test_pn - function 2
 *Return: result
 *@y: test number
 *@x: number n
@@ -13,11 +13,18 @@ int test_pn(int x, int y)
 	}
 	if (y * y > x)
 	{
-		return(1);
+		return (1);
 	}
 
 	return (test_pn(x, y + 1));
 }
+
+#include "main.h"
+/**
+*is_prime_number - function 1
+*Return: result
+*@n: number n
+*/
 
 int is_prime_number(int n)
 {
