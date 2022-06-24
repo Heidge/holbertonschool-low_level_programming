@@ -7,7 +7,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int i, j;
+	int i = 0;
 	char *array;
 	int size = 0; /* déclarer car on ne sait pas ce qu'il y a dedans */
 
@@ -19,20 +19,26 @@ char *str_concat(char *s1, char *s2)
 
 	array = malloc(sizeof(char) * (size + 1));
 
-
-
 	if (array == NULL)
 	return (NULL);
 
 	if (size != 0)
 	{
-		for (i = 0; s1[i] != '\0'; i++)
+		if (s1 != NULL)
 		{
-			array[i] = s1[i];
+			for (i = 0; *s1; i++)
+			{
+				array[i] = *s1;
+				s1++;
+			}
 		}
-		for (j = 0; s2[j] != '\0'; i++, j++)
+		if (s2 != NULL)
 		{
-			array[i] = s2[j];
+			for (;*s2; i++)
+			{
+				array[i] = *s2;
+				s2++;
+			}
 		}
 	}
 	else
