@@ -3,7 +3,7 @@
  *
  *
  * @str: value of arg
- * Return: always 0
+ * Return: new pointer allocated
  */
 #include <stdio.h>
 #include <stdlib.h>
@@ -15,12 +15,14 @@ char *_strdup(char *str)
 	unsigned int size;
 	char *array;
 
+	if (str == NULL)
+	return (NULL);
+
 	size = strlen(str);
 
 	array = malloc(sizeof(char) * size + 1);
 
-
-	if (str == NULL || array == NULL)
+	if (array == NULL)
 	return (NULL);
 
 	for (i = 0; i < size; i++)

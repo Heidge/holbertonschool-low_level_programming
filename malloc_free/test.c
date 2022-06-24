@@ -1,24 +1,17 @@
-char *dupstring(char *str)
+char *_strcat(char *dest, char *src)
 {
-    int org_size;
-    static char *dup;
-    char *dup_offset;
+	int i, j;
 
-    /* Allocate memory for duplicate */
-    size = strlen(str);
-    array = (char *)malloc(sizeof(char)*size+1);
-    if( array == NULL)
-        return( (char *)NULL);
-
-    /* Copy string */
-    dup_offset = array;
-    while(*org)
-    {
-        *dup_offset = *org;
-        dup_offset++;
-        org++;
-    }
-    *dup_offset = '\0';
-
-    return(dup);
+	i = 0;
+	while (dest[i] != '\0')
+	{
+		i++;
+	}
+	for (j = 0; src[j] != '\0'; j++)
+	{
+		dest[i] = src[j];
+		i++;
+	}
+	dest[i] = '\0';
+	return (dest);
 }
