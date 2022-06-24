@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "main.h"
 /**
  * _strdup - function
  *
@@ -5,10 +9,6 @@
  * @str: value of arg
  * Return: new pointer allocated
  */
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include "main.h"
 char *_strdup(char *str)
 {
 	unsigned int i;
