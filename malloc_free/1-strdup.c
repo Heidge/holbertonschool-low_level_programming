@@ -1,8 +1,8 @@
 /**
- * create_array - function
+ * _strdup - function
  *
- * @size: number of arg
- * @c: value of arg
+ *
+ * @str: value of arg
  * Return: always 0
  */
 #include <stdio.h>
@@ -22,7 +22,7 @@ char *_strdup(char *str)
 	if (size == 0)
 	return (NULL);
 
-	if (array == NULL)
+	if (*str == ('\0'))
 	return (NULL);
 
 	for (i = 0; i < size; i++)
