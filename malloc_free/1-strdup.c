@@ -17,12 +17,12 @@ char *_strdup(char *str)
 
 	size = strlen(str);
 
-	array = malloc(sizeof(char) * size);
+	array = malloc(sizeof(char) * size + 1);
 
 	if (size == 0)
 	return (NULL);
 
-	if (str == NULL)
+	if (array == NULL)
 	return (NULL);
 
 	for (i = 0; i < size; i++)
