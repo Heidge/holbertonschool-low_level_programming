@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *_calloc - function
- *@mnemb: first str
- *@size: length
+ *@nmemb: first parameter
+ *@size: second parameter
  *Return: new pointer allocated
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
