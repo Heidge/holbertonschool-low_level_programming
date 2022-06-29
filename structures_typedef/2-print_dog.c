@@ -2,8 +2,8 @@
 #include "dog.h"
 
 /**
- * main - check the code
- *
+ * print_dog - function
+ * @d: elements
  * Return: Always 0.
  */
 void print_dog(struct dog *d)
