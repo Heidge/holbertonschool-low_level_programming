@@ -2,9 +2,11 @@
 #include "dog.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * init_dog - function
+ *@d: adresse my dog
+ *@name: name
+ *@age: age
+ *@owner: propriétaire
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
