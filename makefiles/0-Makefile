@@ -1,2 +1,3 @@
-school:
+school: school.c
+gcc -c -Wall school.c
 all:
