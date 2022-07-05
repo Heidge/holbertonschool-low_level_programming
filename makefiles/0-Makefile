@@ -1,3 +1,3 @@
-school: school.c
-gcc -c -Wall school.c
+school: main.c school.c
+gcc main.c school.c -o school
 all:
