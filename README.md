@@ -31,7 +31,7 @@ Multiples projects for learning C language.
 
 **Betty linter**
 
-To run the Betty linter just with command betty <filename>:
+To run the Betty linter just with command betty \<filename>:
 
 - Go to the [Betty](https://github.com/hs-hq/Betty) repository
 - Clone the repo to your local machine
