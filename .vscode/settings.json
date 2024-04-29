@@ -1,8 +1,0 @@
-{
-	"files.associations": {
-		"stdio.h": "c",
-		"main.h": "c",
-		"function_model": "c",
-		"6-main.C": "cpp"
-	}
-}
