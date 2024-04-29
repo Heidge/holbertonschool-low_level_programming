@@ -31,7 +31,7 @@ Multiples projects for learning C language.
 
 **Betty linter**
 
-To run the Betty linter just with command betty <\filename>:
+To run the Betty linter just with command betty <filename>:
 
 - Go to the [Betty](https://github.com/hs-hq/Betty) repository
 - Clone the repo to your local machine
@@ -65,7 +65,7 @@ done
 - Once saved, exit file and change permissions to apply to all users with chmod a+x betty
 - Move the betty file into /bin/ directory or somewhere else in your $PATH with sudo mv betty /bin/
 
-You can now type betty <\filename> to run the Betty linter!
+You can now type betty <filename> to run the Betty linter!
 
 ## Projects
 
