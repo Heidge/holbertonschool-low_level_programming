@@ -1,2 +1,8 @@
 .vscode/
 *main.c
+_putchar.c
+Betty/
+a.out
+*.out
+*.o
+*.exe
