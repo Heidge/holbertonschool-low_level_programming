@@ -1,8 +1,9 @@
 .vscode/
 *main.c
 _putchar.c
-Betty/
+Betty
 a.out
 *.out
 *.o
 *.exe
+main_creation.sh
