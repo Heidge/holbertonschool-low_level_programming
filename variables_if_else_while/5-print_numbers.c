@@ -1,22 +1,19 @@
 #include <stdio.h>
+
 /**
- *main - Print the numbers of base 16
+ *main - print number 0 - 9
  *Return: 0
  */
+
 int main(void)
 {
 	int i;
-	char l;
 
 	for (i = 0; i < 10; i++)
 	{
-		putchar(i % 10 + '0');
+		printf("%d", i);
 	}
-	for (l = 'a'; l <= 'f'; l++)
-	{
-		putchar(l);
-	}
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }

@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - Printf last digit of a random number and say if >5, =0 or less than 6
-* Return: always 0
-*/
+ *main - print alphabet
+ *Return: 0
+ */
 
 int main(void)
 {
