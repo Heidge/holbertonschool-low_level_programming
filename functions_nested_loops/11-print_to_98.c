@@ -3,6 +3,7 @@
 
 /**
  * print_to_98 - function for drive a number n to 98
+ * @n: start number
  */
 void print_to_98(int n)
 {
