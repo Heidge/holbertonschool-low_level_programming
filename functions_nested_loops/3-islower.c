@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * _islower - function for check if c is a lowercase letter
+ * Return: 1 if lowercase letter otherwise 0
+ */
 int _islower(int c)
 {
 	int i = 97;
