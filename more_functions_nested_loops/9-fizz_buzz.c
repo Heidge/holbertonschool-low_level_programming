@@ -1,7 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 
-
+/**
+ * main - classic fizzbuzz function
+ * Return: always 0
+ */
 int main(void)
 {
 	int i;
