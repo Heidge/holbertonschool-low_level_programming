@@ -3,6 +3,7 @@
 /**
  * _atoi - function that convert a string to an integer
  * @s: the string converted to int
+ * Return: int converted from a string given as parameter
  */
 int _atoi(char *s)
 {
