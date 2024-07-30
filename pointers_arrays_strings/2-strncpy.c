@@ -8,15 +8,14 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0;
-	char *buffer = dest;
 
-	while(i < n && src[i])
+	while(src[i] && n--)
 	{
-		buffer[i] = src[i];
+		dest[i] = src[i];
 		i++;
 	}
 
-	buffer[i] = '\0';
+	dest[i] = '\0';
 
-	return (buffer);
+	return (dest);
 }
