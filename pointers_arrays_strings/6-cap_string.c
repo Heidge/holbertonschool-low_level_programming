@@ -24,15 +24,11 @@ char *cap_string(char *str)
 	};
 	int i = 0;
 	int j = 0;
-	int length = 0;
 
-	while (str[i] != '\0')
-	{
-		length++;
-		i++;
-	}
-
-	for (i = 0; i < length - 1; i++)
+	if (str[0] > 96 && str[0] < 123)
+		str[0] = str[0] - 32;
+		
+	for (i = 0; str[i]; i++)
 	{
 		for(j = 0; j < 13; j++)
 		{
