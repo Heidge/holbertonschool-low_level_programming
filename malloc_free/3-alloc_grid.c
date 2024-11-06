@@ -2,8 +2,10 @@
 
 void free_all(int *ptr, int n)
 {
+	int i = 0;
+
 		for(int i = 0; i < n; i++)
-		free(ptr[i]);
+			free(ptr[i]);
 	free(ptr);
 }
 
