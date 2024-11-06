@@ -1,6 +1,6 @@
 #include "main.h"
 
-void free_all(int **ptr, int height, int width)
+void free_all(int **ptr, int height)
 {
 	int i = 0;
 
@@ -26,7 +26,7 @@ int **alloc_grid(int width, int height)
 		array[i] = malloc(sizeof(int) * width);
 		if (array[i] == NULL)
 		{
-			free_all(array, height, width);
+			free_all(array, height);
 			return NULL;
 		}
 	}
