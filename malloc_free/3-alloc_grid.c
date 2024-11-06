@@ -2,14 +2,10 @@
 
 void free_all(int **ptr, int height, int width)
 {
-	int i, j = 0;
+	int i = 0;
 
 	for (i = 0; i < height; i++)
 	{
-		for (j = 0; j < width; j++)
-		{
-			ptr[i][j] = 0;
-		}
 		free(ptr[i]);
 	}
 	free(ptr);
@@ -42,6 +38,6 @@ int **alloc_grid(int width, int height)
 			array[i][j] = 0;
 		}
 	}
-	
+
 	return (array);
 }
