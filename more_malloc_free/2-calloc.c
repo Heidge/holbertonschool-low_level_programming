@@ -13,11 +13,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (array == NULL)
 		return (NULL);
 
-	while (array[index])
-	{
-		array[index] = 0;
-		index++;
-	}
+	memset(array, 0, (size * nmemb));
 
 	return (array);
 }
