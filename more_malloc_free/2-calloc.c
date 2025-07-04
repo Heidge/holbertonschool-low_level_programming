@@ -12,7 +12,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	while (array[index])
 	{
-		array[index] = 0;
+		array[index] = 0x00;
 		index++;
 	}
 
