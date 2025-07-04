@@ -10,9 +10,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	array = malloc(size * nmemb);
 
+	if (array == NULL)
+		return (NULL);
+
 	while (array[index])
 	{
-		array[index] = 0x00;
+		array[index] = 0;
 		index++;
 	}
 
