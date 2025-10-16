@@ -11,10 +11,6 @@ int _atoi(char *s)
     int sign = 1;
     int i = 0;
 
-    // Check for leading sign character
-
-
-    // Convert digits to integer value
     while (s[i] != '\0')
 	{
         if (s[i] >= '0' && s[i] <= '9')
