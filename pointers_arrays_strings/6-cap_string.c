@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strlen - function that returns the length of a string
- * @s: the string counted
- * Return: length of the string
+ * _cap_string - capitalize first letter of all words of the string
+ * @str: the string send to capitalize
+ * Return: string with all first letter of all words capitalized
  */
 char *cap_string(char *str)
 {

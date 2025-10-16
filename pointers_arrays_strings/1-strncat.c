@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _strlen - function that returns the length of a string
- * @s: the string counted
- * Return: length of the string
+ * _strncat - function that concatenate variable from two variables
+ * @dest: the destination variable
+ * @src: the source dvariable
+ * @n: number of bytes we want concatenate from src
+ * Return: concatenate variable from two variables
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -20,6 +22,11 @@ char *_strncat(char *dest, char *src, int n)
 	return (dest);
 }
 
+/**
+ * _strlen - function that returns the length of a string
+ * @s: the string counted
+ * Return: length of the string
+ */
 int _strlen(char *s)
 {
 	int length = 0;

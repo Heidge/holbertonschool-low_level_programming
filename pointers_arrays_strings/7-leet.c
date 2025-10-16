@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strlen - function that returns the length of a string
- * @s: the string counted
- * Return: length of the string
+ * leet - function that encodes a string into 1337
+ * @str: the string to encode
+ * Return: string encoded
  */
 char *leet(char *str)
 {

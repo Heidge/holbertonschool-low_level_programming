@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strlen - function that returns the length of a string
- * @s: the string counted
- * Return: length of the string
+ * reverse_array - function that reverse an array
+ * @a: the array of int
+ * @n: number of elements in the array
  */
 void reverse_array(int *a, int n)
 {

@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strlen - function that returns the length of a string
- * @s: the string counted
- * Return: length of the string
+ * string_toupper - function that changes all lowercase letters of a string to uppercase
+ * @str: string changed
+ * Return: string capitalized
  */
 char *string_toupper(char *str)
 {
