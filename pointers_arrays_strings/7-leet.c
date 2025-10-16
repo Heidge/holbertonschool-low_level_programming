@@ -5,7 +5,6 @@
  * @s: the string counted
  * Return: length of the string
  */
-
 char *leet(char *str)
 {
 	char letters[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
