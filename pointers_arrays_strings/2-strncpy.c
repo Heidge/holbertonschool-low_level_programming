@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncopy - function that copy data form a variable in an other variable
+ * _strncpy - function that copy data form a variable in an other variable
  * @dest: the destination variable
  * @src: the source variable
  * @n: number of bytes we want copy from src
