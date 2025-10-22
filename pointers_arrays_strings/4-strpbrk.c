@@ -8,7 +8,6 @@ char *_strpbrk(char *s, char *accept)
 {
 	int i = 0;
 	int j = 0;
-	int check = 0;
 
 	for (i = 0; i <= _strlen(s); i++)
 	{
@@ -16,12 +15,9 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (s[i] == accept[j])
 			{
-				check = 1;
-				break;
+				return (s+i);
 			}
 		}
-		if (check == 1)
-			return (s+i);
 	}
 	return (NULL);
 
