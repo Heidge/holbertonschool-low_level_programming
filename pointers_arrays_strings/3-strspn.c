@@ -8,20 +8,20 @@ unsigned int _strspn(char *s, char *accept)
 {
 	int i = 0;
 	int j = 0;
-	int check = 0;
+	int character_found = 0;
 
 	for (i = 0; i < _strlen(s); i++) {
 		for (j = 0; j < _strlen(accept); j++)
 		{
 			if (s[i] == accept[j])
 			{
-				check = 0;
+				character_found = 0;
 				break;
 			}
 			else
-				check = 1;
+				character_found = 1;
 		}
-		if (check == 1)
+		if (character_found == 1)
 			return (i);
 	}
 	return (0);
