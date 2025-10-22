@@ -23,7 +23,7 @@ char *_strpbrk(char *s, char *accept)
 		if (check == 1)
 			return (s+i);
 	}
-	return ('nil');
+	return ("nil");
 
 }
 
