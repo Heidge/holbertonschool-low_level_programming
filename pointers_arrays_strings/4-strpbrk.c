@@ -19,8 +19,7 @@ char *_strpbrk(char *s, char *accept)
 			}
 		}
 	}
-	return (NULL);
-
+	return ('\0');
 }
 
 int _strlen(char *s)
