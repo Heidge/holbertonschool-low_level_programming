@@ -22,9 +22,9 @@ unsigned int _strspn(char *s, char *accept)
 				check = 1;
 		}
 		if (check == 1)
-			break;
+			return (i);
 	}
-	return (i);
+	return (0);
 }
 
 int _strlen(char *s)
