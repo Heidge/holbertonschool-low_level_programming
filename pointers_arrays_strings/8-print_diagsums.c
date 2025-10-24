@@ -14,16 +14,24 @@ void print_diagsums(int *a, int size)
 	{
 		if (size % 2 != 0)
 		{
-			if (i == (size * size - 1) / 2 )
+			if (i == (size * size - 1) / 2)
 			{
 				sum_1 += a[i];
 				sum_2 += a[i];
 			}
+			else if (i % (size + 1) == 0)
+				sum_1 += a[i];
+			else if (i % (size - 1) == 0)
+				sum_2 += a[i];
 		}
-		else if (i % (size + 1) == 0)
-			sum_1 += a[i];
-		else if (i % (size - 1) == 0)
-			sum_2 += a[i];
+		else
+		{
+			if (i % (size + 1) == 0)
+				sum_1 += a[i];
+			else if (i % (size - 1) == 0)
+				sum_2 += a[i];
+		}
+
 	}
 	printf("%d, %d\n", sum_1, sum_2);
 }
