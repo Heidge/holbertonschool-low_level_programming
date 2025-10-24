@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * reset_to_98 - function that updates the value points by the parameter
- * @n: The pointer
+ * _strspn - function that gets the length of a prefix substring
+ * @s: initial string
+ * @accept: string of char which we search into s
+ * Return: index of the first occurrence of char otherwise 0
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -10,7 +12,8 @@ unsigned int _strspn(char *s, char *accept)
 	int j = 0;
 	int character_found = 0;
 
-	for (i = 0; i < _strlen(s); i++) {
+	for (i = 0; i < _strlen(s); i++)
+	{
 		for (j = 0; j < _strlen(accept); j++)
 		{
 			if (s[i] == accept[j])
@@ -27,6 +30,11 @@ unsigned int _strspn(char *s, char *accept)
 	return (0);
 }
 
+/**
+ * _strlen - function that returns the length of a string
+ * @s: the string counted
+ * Return: length of the string
+ */
 int _strlen(char *s)
 {
 	int length = 0;

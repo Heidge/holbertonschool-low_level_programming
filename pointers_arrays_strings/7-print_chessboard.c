@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * reset_to_98 - function that updates the value points by the parameter
- * @n: The pointer
+ * print_chessboard - function that prints the chessboard
+ * @a: pointer to an array of array
  */
 void print_chessboard(char (*a)[8])
 {

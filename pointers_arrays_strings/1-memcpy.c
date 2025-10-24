@@ -1,8 +1,11 @@
 #include "main.h"
 
 /**
- * reset_to_98 - function that updates the value points by the parameter
- * @n: The pointer
+ * _memcpy - function that copies memory area
+ * @dest: memory area destination
+ * @src: memory area source
+ * @n: number of bytes from src to copy
+ * Return: pointer to dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {

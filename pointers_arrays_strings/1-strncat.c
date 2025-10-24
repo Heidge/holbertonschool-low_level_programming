@@ -3,7 +3,7 @@
 /**
  * _strncat - function that concatenate variable from two variables
  * @dest: the destination variable
- * @src: the source dvariable
+ * @src: the source variable
  * @n: number of bytes we want concatenate from src
  * Return: concatenate variable from two variables
  */

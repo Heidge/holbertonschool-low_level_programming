@@ -1,8 +1,11 @@
 #include "main.h"
 
 /**
- * reset_to_98 - function that updates the value points by the parameter
- * @n: The pointer
+ * _memset - function that fills memory with a constant byte
+ * @s: memory area pointed
+ * @b: constant byte
+ * @n: number of bytes of the memory area pointed to by s
+ * Return: pointer to the memory area s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
