@@ -9,3 +9,4 @@ a.out
 *.exe
 main_creation.sh
 .DS_Store
+*-main.c

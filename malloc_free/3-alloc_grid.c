@@ -14,7 +14,7 @@ void free_all(int **ptr, int height)
 int **alloc_grid(int width, int height)
 {
 	int **array;
-	int i, j= 0;
+	int i, j = 0;
 
 	array = malloc(sizeof(int*) * height);
 
