@@ -11,7 +11,7 @@ int sum_to_n(int n)
     return sum;
 }
 
-// -- DO NOT Modify the code below this line --
+/* -- DO NOT Modify the code below this line -- */
 
 int main(void)
 {
