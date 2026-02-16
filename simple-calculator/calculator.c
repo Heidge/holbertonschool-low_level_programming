@@ -8,6 +8,8 @@
 int main(void)
 {
 	int choice;
+	int num1;
+	int num2;
 
     printf("Welcome to my calculator software\n\n");
 	printf("Simple Calculator\n");
@@ -22,13 +24,20 @@ int main(void)
 		scanf("%d", &choice);
 
 		if (choice > 4)
-		{
-			printf("Invalid choice\n");
-		}
+			printf("Invalid choice!\n");
+
 		else if (choice == 0)
 		{
 			printf("Bye!\n");
 			break;
+		}
+		else if (choice == 1)
+		{
+			printf("\nA: ");
+			scanf("%d", &num1);
+			printf("B: ");
+			scanf("%d", &num2);
+			printf("Result: %d\n\n", num1 + num2);
 		}
 	}
     return (0);
