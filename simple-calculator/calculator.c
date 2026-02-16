@@ -10,10 +10,10 @@ int main(void)
 	int choice;
 
     printf("Welcome to my calculator software\n\n");
+	printf("Simple Calculator\n");
 
 	while (1)
 	{
-		printf("Simple Calculator\n");
 		printf("1) Add\n");
 		printf("2) Subtract\n");
 		printf("3) Multiply\n");
@@ -21,7 +21,11 @@ int main(void)
 		printf("0) Quit\n");
 		scanf("%d", &choice);
 
-		if (choice == 0)
+		if (choice > 4)
+		{
+			printf("Invalid choice\n");
+		}
+		else if (choice == 0)
 		{
 			printf("Bye!\n");
 			break;
