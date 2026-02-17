@@ -32,11 +32,11 @@ int _atoi(char *s)
 }
 
 /**
- * main - print first argument
+ * main - multiply two integers give in arguments
  * @argc: number of arguments
  * @argv: array of arguments
  *
- * Return: 0
+ * Return: 0 or 1 if error
  */
 int main(int argc, char **argv)
 {

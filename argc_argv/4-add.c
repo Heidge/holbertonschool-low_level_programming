@@ -16,7 +16,7 @@ int _atoi(char *s)
 		if (s[i] == '-')
 			sign *= -1;
 
-		if (s[i] < 48 || s[i] > 57 )
+		if (s[i] < 48 || s[i] > 57)
 			return (-1);
 
 		if (s[i] >= '0' && s[i] <= '9')
@@ -39,7 +39,7 @@ int _atoi(char *s)
  * @argc: number of arguments
  * @argv: array of arguments
  *
- * Return: 0
+ * Return: 0 or 1 if error
  */
 int main(int argc, char **argv)
 {
@@ -57,7 +57,7 @@ int main(int argc, char **argv)
 			if (_atoi(argv[i]) == -1)
 			{
 				printf("Error\n");
-				return(1);
+				return (1);
 			}
 			sum += _atoi(argv[i]);
 			i++;
